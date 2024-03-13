@@ -110,7 +110,7 @@ public class ShogiBoard implements Board<ShogiCell> {
                 ShogiCell cell = getCell(index);
                 Koma koma = cell.getValue();
                 if (koma == null) {
-                    System.out.print("⬜︎");
+                    System.out.print("口");
                 } else {
                     printKomaOfFirstPlayer(koma);
                 }
